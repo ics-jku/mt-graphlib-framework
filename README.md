@@ -10,23 +10,24 @@ It contains a Pyhton script which performs following step:
 
 ## Prerequisites
 - PlatformIO with working RISC-V (Nuclei) GCC
-- Working Python3 Environment 
+- Working Python3 environment 
 
 ## Requirements
-- Metamorphic Testing Repository
+- Metamorphic Testing repository
 - GD32 VP + GUI
 
 ## HowTo
-1. Clone Metamorphic Repository
+1. Clone Metamorphic repository
 ```
 git clone https://github.com/ics-jku/metamorphic_testing.git
 ```
-2. Clone RISCV-VP++ Virtual Prototype Repository
+2. Clone RISCV-VP++ repository
 ```
 git clone https://github.com/ics-jku/riscv-vp-plusplus.git
 ```
-3. Install packages and build RISCV-VP++ according to README of Repository
+3. Install packages and build RISCV-VP++ according to README of RISCV-VP++
 ```
+sudo apt install ...
 make -j
 ```
 4. Build GUI for display
@@ -37,8 +38,9 @@ cd build
 cmake ..
 make
 ```
-6. Edit config.py with your personal folder locations
-Replace tokens in <> Tags with your pathes e.g.
+6. Edit "config.py" with your personal folder locations
+
+Replace tokens in "<>" tags with your pathes e.g.
 ```
 "BASE": "<METAMORPHIC_TESTING_CLONE_FOLDER>/",
 "BASE": "/home/user/metamorphic_testing/",
