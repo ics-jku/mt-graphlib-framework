@@ -1,0 +1,22 @@
+{
+  "name": "TFT_eSPI_GD32",
+  "description": "A TFT parallel interface graphics library for GD32VF103 processors. Forked from Bodmer's TFT_eSPI",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/florianstoegmueller/TFT_eSPI_GD32.git"
+  },
+  "frameworks": "nuclei-sdk",
+  "platforms": "nuclei",
+  "build": {
+    "srcFilter": [
+        "+<TFT_eSPI.cpp>",
+        "+<TFT_Interface.cpp>",
+        "+<Processors/GD32/*>",
+        "+<Processors/GD32/EXMC/*>"
+    ]
+  },
+  "frameworks": "nuclei-sdk",
+  "platforms": "nuclei",
+  "headers": "TFT_eSPI.h"
+}
