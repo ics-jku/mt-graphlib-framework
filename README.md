@@ -1,6 +1,6 @@
 # Metamorphic Testing
 
-This repository is used to perform metamorphic testing of the GD32 ILI9341 Graphics library (https://git.ics.jku.at/florianstoegmueller/TFT_eSPI_GD32).   
+This repository is used to perform metamorphic testing of the GD32 ILI9341 Graphics library.   
 It contains a Pyhton script which performs following step:   
 1. Generate a test case
 2. Compile the test case using the RISC-V (Nuclei) GCC
