@@ -1,6 +1,6 @@
 # Metamorphic Testing
 
-This repository is used to perform metamorphic testing of the GD32 ILI9341 Graphics library.   
+This repository is used to perform metamorphic testing of the GD32 ILI9341 Graphics library called TFT_eSPI, which is available at https://github.com/Bodmer/TFT_eSPI.   
 It contains a Pyhton script which performs following step:   
 1. Generate a test case
 2. Compile the test case using the RISC-V (Nuclei) GCC
@@ -50,4 +50,19 @@ Replace tokens in "<>" tags with your pathes e.g.
 python3 Main.py
 ```
 
+## *Verifying Embedded Graphics Libraries leveraging Virtual Prototypes and Metamorphic Testing*
+
+[Christoph Hazott, Florian Stögmüller and Daniel Große. Verifying Embedded Graphics Libraries leveraging Virtual Prototypes and Metamorphic Testing. In ASP-DAC, 2024.
+](https://ics.jku.at/files/2024ASPDAC_MTGraphicsVerification.pdf)
+
+```
+@inproceedings{HSG:2024,
+  author =        {Christoph Hazott and Florian St\"ogm\"uller and
+                   Daniel Gro{\ss}e},
+  booktitle =     {ASP Design Automation Conf.},
+  title =         {Verifying Embedded Graphics Libraries leveraging
+                   Virtual Prototypes and Metamorphic Testing},
+  year =          {2024},
+}
+```
 
